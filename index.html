@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Harley AI Terminal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<div id="finalWarning" class="final-warning" style="display:none;">
+    NIE WRACAJ
+</div>
+<body>
+
+<div class="screen-wrapper" id="screenWrapper">
+    <div class="curved">
+        <div class="content">
+            <div class="eye-container">
+                <div class="eye-frame">
+                    <img id="eyeImage" src="eye1.png" alt="Harley eye">
+                </div>
+            </div>
+
+            <div class="console">
+                <div id="consoleOutput" class="console-output"></div>
+                <div class="console-line">
+                    <span class="prompt">C:\\HARLEY_AI&gt;</span>
+                    <input id="consoleInput" class="console-input" autofocus>
+                    <div class="cursor"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="crt"></div>
+    <div class="vignette"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
